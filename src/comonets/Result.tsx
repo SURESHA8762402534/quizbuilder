@@ -15,8 +15,8 @@ const Result = ()=>{
     return(
         <>
         <Typography variant="h4" sx={{m:3,textAlign:'center',textDecoration:'underline'}}>RESULT</Typography>
-        <Paper>
-            <Paper sx={{float:'left',p:3}}>
+      
+            <Paper sx={{p:3,width:'50vw'}}>
                 <Paper sx={{width:'20vw',p:2,textAlign:'center', backgroundColor:'lightcyan'}}>
                     <Typography>
                         Total Score is <b>{score}/5</b>
@@ -54,25 +54,24 @@ const Result = ()=>{
                             </>
                         )
                     })}
-                </Paper>
+                </Paper> 
 
             </Paper>
-            
-            <Paper sx={{float:'right',p:3,mr:20,mt:5}}>
-                <div data-testid='piechart' style={{
+
+            <div data-testid='piechart' style={{
                     width:'20rem',
                     height:'20rem',
                     borderRadius:'50%',
-                    position:'sticky',
-                    top:'10px',
+                    position:'fixed',
+                    top:'100px',
+                    right:'10vw',
                     backgroundImage:`conic-gradient(green 0deg, green ${score * 75}deg, red ${score * 75}deg, red 360deg)`
                 }}>
-                    <Typography variant="h4" sx={{color:'white',textAlign:'right',mr:'2rem',pt:20,pr:1}}>
+                    <Typography variant="h4" sx={{color:'white',textAlign:'right',mr:'2rem',pt:20}}>
                     <b>{((score*100)/5).toFixed(2)}%</b>
                     </Typography>
                 </div>
-            </Paper>
-        </Paper>
+       
         </>
     )
 }

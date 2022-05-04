@@ -11,193 +11,7 @@ Object {
         RESULT
       </h4>
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1ps6pg7-MuiPaper-root"
-      >
-        <div
-          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-hfrs04-MuiPaper-root"
-        >
-          <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1sek5l-MuiPaper-root"
-          >
-            <p
-              class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
-            >
-              Total Score is 
-              <b>
-                0
-                /5
-              </b>
-            </p>
-            <p
-              class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
-            >
-              Total percentage is 
-              <b>
-                0.00
-                %
-              </b>
-            </p>
-          </div>
-          <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1kol39z-MuiPaper-root"
-          >
-            <h6
-              class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
-            >
-              Q
-              1
-              . 
-              what is React?
-            </h6>
-            <p
-              class="MuiTypography-root MuiTypography-body1 css-hy60wk-MuiTypography-root"
-            >
-              Correct Answer is --- 
-              l
-              i
-              b
-              r
-              e
-              r
-              y
-            </p>
-            <p
-              class="MuiTypography-root MuiTypography-body1 css-qt3w6v-MuiTypography-root"
-            >
-              Your Answer is --- 
-            </p>
-            <h6
-              class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
-            >
-              Q
-              2
-              . 
-              React is built by ____
-            </h6>
-            <p
-              class="MuiTypography-root MuiTypography-body1 css-hy60wk-MuiTypography-root"
-            >
-              Correct Answer is --- 
-              f
-              a
-              c
-              e
-              b
-              o
-              o
-              k
-            </p>
-            <p
-              class="MuiTypography-root MuiTypography-body1 css-qt3w6v-MuiTypography-root"
-            >
-              Your Answer is --- 
-            </p>
-            <h6
-              class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
-            >
-              Q
-              3
-              . 
-              React is a librery
-            </h6>
-            <p
-              class="MuiTypography-root MuiTypography-body1 css-hy60wk-MuiTypography-root"
-            >
-              Correct Answer is --- 
-              t
-              r
-              u
-              e
-            </p>
-            <p
-              class="MuiTypography-root MuiTypography-body1 css-qt3w6v-MuiTypography-root"
-            >
-              Your Answer is --- 
-            </p>
-            <h6
-              class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
-            >
-              Q
-              4
-              . 
-              match the following
-            </h6>
-            <p
-              class="MuiTypography-root MuiTypography-body1 css-hy60wk-MuiTypography-root"
-            >
-              Correct Answer is --- 
-              1
-              -
-              c
-              ,
-              2
-              -
-              a
-              ,
-              3
-              -
-              b
-            </p>
-            <p
-              class="MuiTypography-root MuiTypography-body1 css-qt3w6v-MuiTypography-root"
-            >
-              Your Answer is --- 
-            </p>
-            <h6
-              class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
-            >
-              Q
-              5
-              . 
-              React
-            </h6>
-            <p
-              class="MuiTypography-root MuiTypography-body1 css-hy60wk-MuiTypography-root"
-            >
-              Correct Answer is --- 
-              librery
-               , 
-              uses jsx
-            </p>
-            <p
-              class="MuiTypography-root MuiTypography-body1 css-qt3w6v-MuiTypography-root"
-            >
-              Your Answer is --- 
-               ,  
-            </p>
-          </div>
-        </div>
-        <div
-          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-d5b5bv-MuiPaper-root"
-        >
-          <div
-            data-testid="piechart"
-            style="width: 20rem; height: 20rem; border-radius: 50%; position: sticky; top: 10px;"
-          >
-            <h4
-              class="MuiTypography-root MuiTypography-h4 css-z04yf0-MuiTypography-root"
-            >
-              <b>
-                0.00
-                %
-              </b>
-            </h4>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <h4
-      class="MuiTypography-root MuiTypography-h4 css-oak7j8-MuiTypography-root"
-    >
-      RESULT
-    </h4>
-    <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1ps6pg7-MuiPaper-root"
-    >
-      <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-hfrs04-MuiPaper-root"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1caak8a-MuiPaper-root"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1sek5l-MuiPaper-root"
@@ -351,22 +165,192 @@ Object {
         </div>
       </div>
       <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-d5b5bv-MuiPaper-root"
+        data-testid="piechart"
+        style="width: 20rem; height: 20rem; border-radius: 50%; position: fixed; top: 100px; right: 10vw;"
       >
-        <div
-          data-testid="piechart"
-          style="width: 20rem; height: 20rem; border-radius: 50%; position: sticky; top: 10px;"
+        <h4
+          class="MuiTypography-root MuiTypography-h4 css-pfhr9p-MuiTypography-root"
         >
-          <h4
-            class="MuiTypography-root MuiTypography-h4 css-z04yf0-MuiTypography-root"
-          >
-            <b>
-              0.00
-              %
-            </b>
-          </h4>
-        </div>
+          <b>
+            0.00
+            %
+          </b>
+        </h4>
       </div>
+    </div>
+  </body>,
+  "container": <div>
+    <h4
+      class="MuiTypography-root MuiTypography-h4 css-oak7j8-MuiTypography-root"
+    >
+      RESULT
+    </h4>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1caak8a-MuiPaper-root"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1sek5l-MuiPaper-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+        >
+          Total Score is 
+          <b>
+            0
+            /5
+          </b>
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+        >
+          Total percentage is 
+          <b>
+            0.00
+            %
+          </b>
+        </p>
+      </div>
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1kol39z-MuiPaper-root"
+      >
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+        >
+          Q
+          1
+          . 
+          what is React?
+        </h6>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-hy60wk-MuiTypography-root"
+        >
+          Correct Answer is --- 
+          l
+          i
+          b
+          r
+          e
+          r
+          y
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-qt3w6v-MuiTypography-root"
+        >
+          Your Answer is --- 
+        </p>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+        >
+          Q
+          2
+          . 
+          React is built by ____
+        </h6>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-hy60wk-MuiTypography-root"
+        >
+          Correct Answer is --- 
+          f
+          a
+          c
+          e
+          b
+          o
+          o
+          k
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-qt3w6v-MuiTypography-root"
+        >
+          Your Answer is --- 
+        </p>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+        >
+          Q
+          3
+          . 
+          React is a librery
+        </h6>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-hy60wk-MuiTypography-root"
+        >
+          Correct Answer is --- 
+          t
+          r
+          u
+          e
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-qt3w6v-MuiTypography-root"
+        >
+          Your Answer is --- 
+        </p>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+        >
+          Q
+          4
+          . 
+          match the following
+        </h6>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-hy60wk-MuiTypography-root"
+        >
+          Correct Answer is --- 
+          1
+          -
+          c
+          ,
+          2
+          -
+          a
+          ,
+          3
+          -
+          b
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-qt3w6v-MuiTypography-root"
+        >
+          Your Answer is --- 
+        </p>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+        >
+          Q
+          5
+          . 
+          React
+        </h6>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-hy60wk-MuiTypography-root"
+        >
+          Correct Answer is --- 
+          librery
+           , 
+          uses jsx
+        </p>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-qt3w6v-MuiTypography-root"
+        >
+          Your Answer is --- 
+           ,  
+        </p>
+      </div>
+    </div>
+    <div
+      data-testid="piechart"
+      style="width: 20rem; height: 20rem; border-radius: 50%; position: fixed; top: 100px; right: 10vw;"
+    >
+      <h4
+        class="MuiTypography-root MuiTypography-h4 css-pfhr9p-MuiTypography-root"
+      >
+        <b>
+          0.00
+          %
+        </b>
+      </h4>
     </div>
   </div>,
   "debug": [Function],

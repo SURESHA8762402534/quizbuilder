@@ -22,7 +22,7 @@ describe('signup component test',()=>{
             <Signup/>
         );
        expect(screen.getByRole('textbox')).toBeInTheDocument();
-       expect(screen.getAllByRole('radio').length).toBe(6);
+       expect(screen.getAllByRole('radio').length).toBe(5);
        const btn = screen.getByRole('button');
 
        fireEvent.change(screen.getByRole('textbox'),{target:{value:'test'}})
@@ -33,7 +33,7 @@ describe('signup component test',()=>{
 
        fireEvent.click(screen.getByTestId('english'))
        fireEvent.click(screen.getByTestId('hindi'))
-       fireEvent.click(screen.getByTestId('other'))
+       
 
        fireEvent.click(btn)
     });

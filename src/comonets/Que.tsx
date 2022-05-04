@@ -18,45 +18,43 @@ const Que = () => {
   const language = useLocation().state;
   const [data, setData]: any = useState();
   const [page, setPage] = useState(0);
-  const [input, setInput] = useState("");
   const [count, setCont] = useState(0)
-
   const navigate = useNavigate();
 
-  const fetchData = () => {
-    if (language === "english") {
-      setData(questions);
-    } else {
-      setData(questions);
-    }
-  };
-
   useEffect(() => {
-    fetchData();
+    (
+     function() {
+        if (language === "english" || language === 'hindi') {
+          setData(questions);
+        } 
+      }
+    )()
   }, []);
 
   const handelInput = (e: any) => {
-    console.log(e.target.value);
-    setCont((p:any)=>p+1)
+    if(!data[page].isAnsd){
+      setCont((p:any)=>p+1)
+    }
+    // console.log(count)
     data[page].isAnsd = true;
-    setInput(e.target.value);
     data[page].userAns.splice(0,1)
     data[page].userAns.push(e.target.value);
-    console.log(data[page]);
+    // console.log(data[page]);
   };
 
   const handelArr = (e: any) => {
-    data[page].isAnsd = true;
-    if (e.target.value !== undefined) {
+    if(!data[page].isAnsd){
       setCont((p:any)=>p+1)
+    }
+    data[page].isAnsd = true;
       if (data[page].userAns.length < 2) {
         data[page].userAns.push(e.target.value);
       } else {
         data[page].userAns.splice(0, 1);
         data[page].userAns.push(e.target.value);
       }
-    }
-    console.log(data[page]);
+    
+    // console.log(data[page]);
   };
 
   const displayOpt = () => {
@@ -160,7 +158,7 @@ const Que = () => {
                     data-testid={`multi-${idx}`}
                     control={
                       <Checkbox
-                      //  checked={data[page]?.userAns.includes(item)}
+                       checked={data[page]?.userAns.includes(item)}
                       />
                     }
                     value={item}
@@ -224,7 +222,7 @@ const Que = () => {
               <Button
                 data-testid="submit"
                 variant="outlined"
-                sx={count<6 ? {display:'none'}:{display:'flex'}}
+                sx={count<5 ? {display:'none'}:{display:'flex'}}
                 onClick={() => navigate("/result", { state: data })}
               >
                 Submit

@@ -24,16 +24,14 @@ const Signup = ()=>{
                 <Typography sx={{mt:2,mb:1}}>Select gender</Typography>
                 <RadioGroup  row sx={{m:2}} onClick={(e:any)=>setgender(e.target.value)}>
                     <FormControlLabel data-testid='gender1' control={<Radio/>} label='male' value='male'/>
-                    
                     <FormControlLabel data-testid='gender2' control={<Radio/>} label='female' value='female'/>
-                    
                     <FormControlLabel data-testid='gender3' control={<Radio/>} label='other' value='other'/>
                 </RadioGroup>
                 <Typography sx={{mt:2,mb:1}} variant='h6'>Select language</Typography>
                 <RadioGroup onClick={(e:any)=>setInput(e.target.value)} sx={{m:2}}>
                     <FormControlLabel data-testid='english' control={<Radio/>} label='english' value='english'/>
                     <FormControlLabel data-testid='hindi' control={<Radio/>} label='hindi' value='hindi'/>
-                    <FormControlLabel data-testid='other' control={<Radio/>} label='other' value='other'/>
+                   
                 </RadioGroup>
                 <Typography sx={{textAlign:'center'}}>
                     <Button disabled={!input || !gender || !name} variant='contained' type='submit'>Start Test</Button>
